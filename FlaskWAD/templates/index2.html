@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block content %}
+ <div class="main">
+    <div class="Container">
+        <h1>Welcom!</h1>
+        <p>
+            Flask flask Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur quibusdam magni consectetur.
+        </p>
+        <a href="/" class="button">Learn More</a>
+    </div>
+ </div>
+{% endblock %}
+{% block js %}
+<script>
+
+</script>
+{% endblock %}
+{% block css %}
+<style>
+.Container{
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+    padding: 40px;
+    box-shadow: 0px 14px 18px 0 skyblue;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.button{
+    background-color: blue;
+    color: aliceblue;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 9px;
+}
+</style>
+{% endblock %}
+{% block head %}{% endblock %}
